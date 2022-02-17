@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #e9b0b0;
+}
+.form-box{
+    background-color: #fff;
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+}
+.form-row{
+    display: flex;
+    align-items: center;
+}
+.form-content{
+    flex-basis: 50%;
+}
+.form-image{
+    flex-basis: 50%;
+}
+.content{
+    padding: 40px 60px;
+    position: relative;
+}
+.content h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.heading-line{
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #FE4D58;
+    transition: .5s ease-in-out;
+}
+.content:hover .heading-line{
+    width: 32%;
+    transition: .5s;
+}
+.form-list{
+    padding-top: 10px;
+}
+.form-group{
+    margin: 15px 0;
+}
+.form-group label{
+    display: block;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+}
+.form-control {
+    width: 100%;
+    padding: 15px 0px;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+}
+.form-control:focus{
+    outline: none;
+    outline-color: #FE4D58;
+    border-bottom: 1px solid #FE4D58;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.btn {
+    padding: 12px 40px;
+    margin: 30px 0;
+    background-color: #fff;
+    border: 1px solid #FE4D58;
+    color: #FE4D58;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #FE4D58;
+    color: #fff;
+}
+.form-group p{
+    display: inline;
+    font-size: 14px;
+}
+.form-group p span{
+    color: #FE4D58;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
